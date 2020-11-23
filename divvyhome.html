@@ -8,12 +8,9 @@
             float: left;
            
             width: 650px;
-
+            height: 500px;
         }
-        .img-size {
-            width: 650px;
-            height: 490px;
-        }
+       
         .para1 {
            
             float: right ;
@@ -64,14 +61,16 @@
         }
         .para2{
             float: right;
-            font-size: 25px;
+            font-size: 23px;
             margin-right: 100px;
             margin-top: 150px;
             font-family: 'Acme', sans-serif;
+            font-weight: bold;
         }
         .white {
             color: white;
             font-size: 35px;
+            
             
         }
         .button3 {
@@ -81,13 +80,75 @@
             font-size: 20px;
             background-color:#ffba08;
         }
+        .topnav{
+            height: 100px;
+            
+           
+        }
+        .logo {
+            margin-left: 50px;
+            float: left;
+            margin-right: 50px;
+            margin-top: 15px;
+           
+        }
+        .nav {
+           
+            margin-top: 1%;
+            width: 75%;
+            margin-left: 280px;
+            height: 60%;
+            font-size: 20px;
+            padding-top: 2%;
+            
+            padding-right: 3%;
+           
+        }
+        .nav > a {
+            margin-right: 35px;
+        }
         
+        .login {
+            margin-left: 15%;
+            color: blue;
+        }
+        .main_button {
+           float: right;
+            height: 80%;
+            width: 13%;
+            font-size: 90%;
+           
+            border-radius: 8%;
+            background-color:#ffba08;
+           
+        }
+        .black {
+            color: black;
+        }
+        
+
         
 
     </style>
     <body>
+        <div class="topnav">
+        <div class="logo"><i><img src="https://www.divvyhomes.com/svg/divvy-logo.svg" alt="icon"></i></div>
+          <div class = "nav">
+              
+              <a href="#home" target="_self" class="black">Homebuyers</a>
+              <a href="#agents" class="black">Agents</a>
+              <a href="#works" class="black">How it works</a>
+              <a href="#about" class="black">About us</a>
+              <a href="#search" class="black">Search</a>
+              <a href="#login" class="login">Log in</a>
+              <a href="#signup"><button class="main_button">Sign up</button> </a>
+            
+          </div>
+          
+           
+        </div>
           <div class="box-1">
-              <div class="img-box"><img class="img-size" src="https://www.divvyhomes.com/images/marketing/homebuyer-hero.jpg" alt="image"></div>
+              <img class="img-box" src="https://www.divvyhomes.com/images/marketing/homebuyer-hero.jpg" alt="image">
               <div class="para1">
                   <h1 class="head">Your journey to <br> homeownership <br> starts with us</h1>
                   <p class="quot">Rent your dream home while we help you save for a down <br> payment. You can buy the home from us whenever you’re <br> ready, or walk away and cash out your savings.</p>
