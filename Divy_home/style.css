@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+#third-box {
+    width: auto;
+    height: 500px;
+    background-color: white;
+    /* border: 1px solid black; */
+    /* margin: 0; */
+}
+
+.flex-cont div {
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    /* margin-left: 20%; */
+}
+
+.flex-cont > div:nth-child(1) > h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.flex-cont > div:nth-child(1) > p {
+    text-align: left;
+    width: 65%;
+    font-size: 30px;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+.flex-cont > div:nth-child(1) > div {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 180px
+}
+
+.flex-cont > div:nth-child(1) > div > p {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.flex-cont > div:nth-child(2) > div {
+    width: 80%;
+    height: 119px;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    /* background-color: whitesmoke;         */
+}
+
+.flex-cont > div:nth-child(2) > div > div:nth-child(1) {
+    width: 10%;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: whitesmoke;
+}
+
+.flex-cont > div:nth-child(2) > div > div:nth-child(2) {
+    width: 85%;
+    height: 120px;
+    margin-left: 5%;
+}
+
+.flex-cont > div:nth-child(2) > div > div:nth-child(2) > h2 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.flex-cont > div:nth-child(2) > div > div:nth-child(2) > p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.flex-cont > div:nth-child(2) > div > div:nth-child(1) {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#fourth-box {
+    width: auto;
+    height: 370px;
+    background-color: whitesmoke;
+}
+
+#fourth-box h1 {
+    padding-left: 10%;
+    padding-top: 2%;
+    font-size: 40px;
+}
+
+#fourth-box > div {
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+}
+
+#fourth-box > div div {
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    /* margin-left: 10%; */
+}
+
+#fourth-box > div > div:nth-child(2) {
+    margin-left: 5%;
+}
+
+#fourth-box > div > div:nth-child(3) {
+    margin-left: 5%;
+}
+
+#fourth-box > div > div > h2 {
+    font-size: 30px;
+}
+
+#fourth-box > div > div > p {
+    font-size: 20px;
+    padding-top: 20px;
+}
