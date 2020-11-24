@@ -1,0 +1,109 @@
+#RecentPress{
+    width:100%;
+    height: 90%;
+    background-color: whitesmoke;
+    
+    margin:auto;
+}
+
+#RecentPress>div:nth-child(1){
+    margin:2%;
+}
+#RecentPress>div:nth-child(2)>:nth-child(n){
+    width:26%;
+    height:30%;
+    margin:2%;
+    
+    background-color: white;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
+
+#RecentPress>div:nth-child(2)>:nth-child(4){
+    margin-left: 20%;
+}
+
+.link{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-style: normal;
+
+}
+.link:hover{
+    color:	rgb(0, 64, 255);
+}
+#firstpara{
+    font-style: normal;
+    font-weight: bold;
+}
+#secondpara{
+    font-style: italic;
+    font-weight: bold;
+}
+#thirdpara{
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#fourthpara{
+    color:teal;
+    font-weight: bold;
+    font-size: 30px;
+}
+#fivthpara{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+}
+#firstlink{
+   
+    
+    font-size: 25px;
+}
+#footerpara{
+    color:white;
+}
+.underline{
+    text-decoration: ;
+}
+
+
+
+#footer{
+    
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    background-color:#474647;
+    
+}
+
+
+
+
+#footer>div:nth-child(n){
+    width:15%;
+    height:90%;
+    margin:2%;
+   
+    float: left;
+    
+}
+.footer1{
+    
+    font-size: 20px;
+    
+}
+
+.color-change{
+    color:burlywood;
+}
+
+.foot{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
