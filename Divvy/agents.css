@@ -1,3 +1,54 @@
+
+.nav {
+    margin-top: 2%;
+    width: 75%;
+    margin-left: 280px;
+    height: 60%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 3%;
+}
+
+.nav > a {
+    margin-right: 35px;
+    font-size: 22px;
+}
+
+.nav > a:active {
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+
+.login {
+    margin-left: 32%;
+    font-size: 30px;
+    color: blue;
+}
+.main_button {
+    height: 50px;
+    width: 8%;
+    font-size: 90%;  
+    border-radius: 8%;
+    background-color:#ffba08;
+   
+}
+
+.logo {
+    margin-left: 120px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 15px;
+   
+}
+
+.black {
+    color: black;
+}
+
+.nav > a:nth-child(6) {
+    font-size: 30px;
+}
+
 .agents_box1 {
     height: 500px;
     
