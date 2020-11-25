@@ -1,4 +1,3 @@
-
 .nav {
     margin-top: 2%;
     width: 1000px;
@@ -133,4 +132,65 @@
     border:none;
     background-color: orange;
     font-weight: bold;
+}
+  
+.flex-cont {
+    display: flex;
+}
+
+#seventh-box {
+    width: auto;
+    height: 650px;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+#seventh-box > img {
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#seventh-box > div {
+    width: 80%;
+    height: 320px;
+    margin-left: 300px;
+    margin-top: 0;
+}
+
+#seventh-box > div div {
+    width: 15%;
+    height: 320px;
+    margin-left: 5%;
+}
+
+#seventh-box > div div:nth-child(1) {
+    margin-left: 0%;
+}
+
+#seventh-box > .flex-cont > div p {
+    padding: 0;
+    font-size: 20px;
+}
+
+#seventh-box > .flex-cont > div > p {
+    color: white;
+    margin-top: 10px;
+}
+
+#seventh-box > .flex-cont > div > p:nth-child(1) {
+    color: grey;
+    margin-top: 0;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p {
+    /* padding: 0; */
+    margin: 2px;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p:nth-child(2) {
+    margin-top: 10px;
 }
