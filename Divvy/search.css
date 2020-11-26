@@ -1,7 +1,19 @@
 
+div.main-nav{
+    
+    width:100%;
+    height:100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+
 .nav {
     margin-top: 2%;
-    width: 1000px;
+    width: 1200px;
     margin-left: 250px;
     height: 100px;
     font-size: 20px;
@@ -11,7 +23,7 @@
 }
 
 .nav > a {
-    margin-right: 35px;
+    margin-right: 30px;
     font-size: 22px;
 }
 
@@ -21,21 +33,22 @@
 }
 
 .login {
-    margin-left: 50px;
+    margin-left: 150px;
     font-size: 30px;
     color: blue;
 }
 .main_button {
-    height: 50px;
-    width: 100px;
+    height: 55px;
+    width: 150px;
     font-size: 90%;  
-    border-radius: 8%;
+    border-radius: 10px;
+    border:none;
     background-color:#ffba08;
    
 }
 
 .logo {
-    margin-left: 120px;
+    margin-left: 100px;
     float: left;
     margin-right: 50px;
     margin-top: 15px;
@@ -133,4 +146,106 @@
     border:none;
     background-color: orange;
     font-weight: bold;
+}
+
+
+
+
+
+#seventh-box {
+    width: auto;
+    height: 600px;
+    background-color: darkslategray;
+}
+
+#seventh-box > img {
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+}
+  
+.flex-cont {
+    display: flex;
+}
+
+#seventh-box {
+    width: auto;
+    height: 650px;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+#seventh-box > img {
+    margin-left: 200px;
+    width: 150px;
+    height: 150px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#seventh-box > div {
+
+    width: 1000px;
+    height: 300px;
+    margin-left: 200px;
+    float: left;
+    width: 80%;
+    height: 320px;
+    margin-left: 200px;
+    margin-top: 0;
+
+}
+
+#seventh-box > div div {
+    width: 15%;
+    height: 320px;
+
+    margin-left: 50px;
+    float: left;
+
+    margin-left: 5%;
+
+}
+
+#seventh-box > div div:nth-child(1) {
+    margin-left: 0%;
+}
+
+#seventh-box > .flex-cont > div p {
+    padding: 0;
+    font-size: 20px;
+}
+
+#seventh-box > .flex-cont > div > p {
+    color: white;
+    margin-top: 10px;
+}
+
+#seventh-box > .flex-cont > div > p:nth-child(1) {
+    color: grey;
+    margin-top: 0;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p {
+    /* padding: 0; */
+    margin: 2px;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p:nth-child(2) {
+    margin-top: 10px;
+
+}
+
+.clear-both{
+    clear: both;
+}
+#support{
+    font-size: 10px;
+}
+.flex-cont>div:nth-child(2)
+{
+    margin-right: 50px;
+
 }
