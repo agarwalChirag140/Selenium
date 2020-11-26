@@ -49,188 +49,60 @@
     font-size: 30px;
 }
 
-.agents_box1 {
-    height: 500px;
-    
-}
-.agents_intro {
-   
-    width: 45%;
-    float: left;
-   margin-left: 4%;
-   margin-top: 1%;
-   height: 80%;
-  
-   
-
-}
-  div > h1 {
-    font-weight: bold;
-    padding-top: 0%;
-    font-size: 60px;
-}
-div > p {
-    font-size: 22px;
-    
-}
-div > button {
-    height: 12%;
-    width: 27%;
-    font-size: 20px;
-    border-radius: 10%;
-    background-color: #ffba08;
-    
-}
-.agents_box1_image_cont {
-    
-    width: 50%;
-    float: right;
-    height: 100%;
-    
-   
-}
-.agents_box1_image {
-   
-   width: 100%;
-   height: 100%;
-}
-#agents_box2 {
-    display: grid;
-    background-color:  #ffba08;
-    color: rgb(32, 31, 31);
-    height: 400px;
-    grid-template-areas: "why why why why"
-                          "grow earn gift close";
-}
-#grow {
-    grid-area: grow;
-    margin-left: 15%;
-    margin-right: 12%;
-   
-    padding-left: 2%;
-    
-}
-#earn {
-    grid-area: earn;
-    margin-right: 8%;
-    
-    padding-left: 5%;
-   
-}
-#gift {
-    grid-area: gift;
-    margin-right: 8%;
-    
-    padding-left: 5%;
-    
-}
-#close {
-    grid-area: close;
-    margin-right: 12%;
-    
-    
-    
-}
-#why{
-   
-    grid-area: why;
-    height: 60%;
-    margin-left: 4%;
-    padding-top: 3% ;
-   
-}
-.f {
-    font-size: 40px;
-}
-.b_font {
-    font-size: 18px;
-}
-div > h2 {
-    font-size: 25px;
-}
-.container {
+.flex-cont {
     display: flex;
 }
 
-.container div {
-    width: 50%;
+#seventh-box {
+    width: auto;
     height: 600px;
-   
-
+    background-color: darkslategray;
 }
 
-.container > div:nth-child(1) > h1 {
-    font-size: 55px;
-    padding-top: 30px;
-    padding-left: 8%;
-    font-weight: bold;
-   
-
+#seventh-box > img {
+    margin-left: 0;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.container > div:nth-child(1) > p {
-    text-align: left;
-    font-size: 25px;  
-    padding-left: 8%;
-    font-weight: bold;
+#seventh-box > div {
+    width: 80%;
+    height: 320px;
+    margin-left: 300px;
 }
 
-.container > div:nth-child(1) > div {
-    width: 200px;
-    height: 60px;
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 8%
-   
-}
-
-.container > div:nth-child(1) > div > p {
-    padding-left: 20%;
-    color: rgb(2, 130, 180);
-    font-size: 20px;
-    font-weight: bold;
-  
-}
-
-.container > div:nth-child(2) > div {
-    width: 90%;
-    height: 130px;
-    margin-top: 5%;
-    margin-left: 0%;
-    display: flex;
-   
-}
-
-.container > div:nth-child(2) > div > div:nth-child(1) {
-    width: 7%;
-    height: 33px;
-    border: 1px solid black;
-    margin-left: 1%;
-    margin-top: 2%;
-    background-color: whitesmoke;
-}
-
-.container > div:nth-child(2) > div > div:nth-child(2) {
-    width: 85%;
-    height: 120px;
+#seventh-box > div div {
+    width: 15%;
+    height: 320px;
     margin-left: 5%;
 }
 
-.container > div:nth-child(2) > div > div:nth-child(2) > h2 {
-    font-size: 25px;
-    
+#seventh-box > div div:nth-child(1) {
+    margin-left: 0%;
 }
 
-.container > div:nth-child(2) > div > div:nth-child(2) > p {
+#seventh-box > .flex-cont > div p {
+    padding: 0;
     font-size: 20px;
-   
 }
 
-.container > div:nth-child(2) > div > div:nth-child(1) {
-    border-radius: 50%;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 10px;
+#seventh-box > .flex-cont > div > p {
+    color: white;
+    margin-top: 10px;
 }
 
+#seventh-box > .flex-cont > div > p:nth-child(1) {
+    color: grey;
+    margin-top: 0;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p {
+    /* padding: 0; */
+    margin: 2px;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p:nth-child(2) {
+    margin-top: 10px;
+}

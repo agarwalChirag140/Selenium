@@ -1,3 +1,4 @@
+
 div.main-nav{
     
     width:100%;
@@ -7,6 +8,7 @@ div.main-nav{
     top: 0;
     background-color: white;
 }
+
 
 
 .nav {
@@ -149,6 +151,7 @@ div.main-nav{
 
 
 
+
 #seventh-box {
     width: auto;
     height: 600px;
@@ -159,22 +162,51 @@ div.main-nav{
     margin-left: 200px;
     width: 100px;
     height: 100px;
+}
+  
+.flex-cont {
+    display: flex;
+}
+
+#seventh-box {
+    width: auto;
+    height: 650px;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+#seventh-box > img {
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #seventh-box > div {
+
     width: 1000px;
     height: 300px;
     margin-left: 200px;
     float: left;
+    width: 80%;
+    height: 320px;
+    margin-left: 300px;
+    margin-top: 0;
+
 }
 
 #seventh-box > div div {
     width: 15%;
     height: 320px;
+
     margin-left: 50px;
     float: left;
+
+    margin-left: 5%;
+
 }
 
 #seventh-box > div div:nth-child(1) {
@@ -203,6 +235,7 @@ div.main-nav{
 
 #seventh-box > .flex-cont > div:nth-child(4) > p:nth-child(2) {
     margin-top: 10px;
+
 }
 
 .clear-both{
@@ -214,4 +247,5 @@ div.main-nav{
 .flex-cont>div:nth-child(2)
 {
     margin-right: 50px;
+
 }
