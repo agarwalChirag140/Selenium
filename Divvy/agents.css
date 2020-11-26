@@ -98,7 +98,6 @@ div > button {
 div > h2 {
     font-size: 25px;
 }
-
 .nav {
     margin-top: 2%;
     width: 75%;
@@ -150,7 +149,6 @@ div > h2 {
 }
 
 .flex-cont {
-
     display: flex;
 }
 
