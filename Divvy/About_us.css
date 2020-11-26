@@ -1,20 +1,19 @@
-<<<<<<< HEAD
 .box-1{
     width:650px;
     height:500px;
     float: left;
-    
+    margin-top: 20px;
 }
 
 .box-2{
     width:670px;
     height:500px;
     float:left;
-    
+    margin-top: 20px;
 }
 .img-box2{
     width:100%;
-    height: 100%;
+    height: 500px;
 }
 .box1-h1{
     margin:50px;
@@ -26,15 +25,13 @@
     
 }
 
-.clear-both{
-    clear:both;
-}
+
 .box-3{
     width:650px;
     height:500px;
     float: left;
     background-color: orange;
-    
+    margin-left: 290px;
 }
 .box-4{width:670px;
     height:500px;
@@ -69,7 +66,7 @@
 }
 .box4-h3 , .box5-h1{
     margin-left:60px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .box4-p,.box5-p{
     margin-left:60px;
@@ -78,16 +75,31 @@
 .facedivvy{
     width:1300px;
     height:200px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
-    
-    
 }
+
+#face-divvy {
+    clear: left;
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 150px;
+}
+
+#face-divvy > h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 150px;
+}
+
+#face-divvy > p {
+    font-size: 25px;
+}
+
 .small-image{
-    margin:auto;
+    margin-left: 320px;
     width:1300px;
-    
-    
+    margin-top: 50px;
 }
 .image{
     width:190px;
@@ -96,30 +108,36 @@
     margin:10px;
 
 }
-.investor-h1{
-    width:1200px;
+
+#investors-div {
+    width: 1300px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+#investors-div > h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#investors-div > #investor-logo div {
+    width: 500px;
     height: 100px;
-    margin-top:50px;
-    margin-left: 90px;
-    font-size: 30px;
-   
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.investor-img{
-    width:1300px;
-    height:250px;
-    
-    
+#investors-div > #investor-logo div:nth-child(1) {
+    margin-left: 0;
 }
 
-.investor-logo{
-    width:100px;
-    height:120px;
-    float: left;
-    margin:90px;
-    
-=======
-.nav {
+#investors-div > #investor-logo div > img {
+    width: 100%;
+}
+
+.nav{
     margin-top: 2%;
     width: 75%;
     margin-left: 280px;
@@ -127,7 +145,6 @@
     font-size: 20px;
     padding-top: 10px;
     padding-right: 3%;
-    border: 1px solid black;
 }
 
 .nav > a {
@@ -158,5 +175,62 @@
 
 .black {
     color: black;
->>>>>>> f6a35855035590e1a239a05684b91776592d12fb
+}
+
+.flex-cont {
+    display: flex;
+}
+
+#seventh-box {
+    width: auto;
+    height: 600px;
+    background-color: darkslategray;
+}
+
+#seventh-box > img {
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#seventh-box > div {
+    width: 80%;
+    height: 320px;
+    margin-left: 300px;
+}
+
+#seventh-box > div div {
+    width: 15%;
+    height: 320px;
+    margin-left: 5%;
+}
+
+#seventh-box > div div:nth-child(1) {
+    margin-left: 0%;
+}
+
+#seventh-box > .flex-cont > div p {
+    padding: 0;
+    font-size: 20px;
+}
+
+#seventh-box > .flex-cont > div > p {
+    color: white;
+    margin-top: 10px;
+}
+
+#seventh-box > .flex-cont > div > p:nth-child(1) {
+    color: grey;
+    margin-top: 0;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p {
+    /* padding: 0; */
+    margin: 2px;
+}
+
+#seventh-box > .flex-cont > div:nth-child(4) > p:nth-child(2) {
+    margin-top: 10px;
 }
