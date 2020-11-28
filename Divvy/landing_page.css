@@ -314,6 +314,14 @@
 }
 
 #fifth-box div:nth-child(3) {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    height: 550px;
+}
+
+#fifth-box div:nth-child(3) {
     background-color: #ffc900;
     font-size: 30px;
 }
@@ -353,6 +361,7 @@
     width: 500px;
     margin-left: 10px;
 }
+
 
 #sixth-box-first a {
     text-decoration: none;
@@ -428,6 +437,8 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
 
 #seventh-box > div {
     width: 80%;

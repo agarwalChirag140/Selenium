@@ -1,12 +1,14 @@
 .login{
     width:1200px;
     height: 600px;
-    margin-left:100px;
+    margin-left: 400px;
     
 }
 #img-both{
     margin:20px;
-    clear: both;
+    /* clear: both; */
+    margin-left: 250px;
+    margin-top: 20px;
 }
 .fill-signup{
     width:500px;
