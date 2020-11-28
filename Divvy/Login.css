@@ -1,7 +1,7 @@
 .login{
     width:1200px;
     height: 600px;
-    margin-left:100px;
+    margin-left: 350px;
     
 }
 #img-both{
@@ -26,9 +26,9 @@
     font-size: 20px;
 }
 .para{
-    
     font-size: 20px;
-    
+    font-weight: bolder;
+    padding-right: 80px;
 }
 #para-id{
     text-align: center;
@@ -57,9 +57,10 @@
     margin:auto;
     font-size: 20px;
 }
-.img-login{
+.logo-divvy{
     width:100%;
-    height:120px;
+    margin-left: 350px;
+    margin-top: 50px;
     
 }
 .h1-login{
